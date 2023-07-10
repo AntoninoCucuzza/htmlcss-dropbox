@@ -1,0 +1,42 @@
+
+
+.debug header{
+    background-color: aqua;
+    height: 100px;
+}
+.debug nav{
+    background-color: black;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.debug nav div{
+    background-color: bisque;
+    height: 100%;
+    width: 200px;
+}
+.debug main{
+    background-color: rebeccapurple;
+    height: 100vh;
+}   
+
+.debug #top_main{
+    background-color: red;
+    height: 70%;
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.debug .top_left{
+    width: 40%;
+    background-color: antiquewhite;
+    border: 4px solid black;
+
+}
+
+.debug .top_right{
+    width: 60%;
+    background-color: antiquewhite;
+    border: 4px solid black;
+}
