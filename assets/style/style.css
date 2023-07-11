@@ -35,11 +35,19 @@ nav a{
 
 a{
     text-decoration: none;
+    color: var(--drbx-black);
 }
 header{
     box-shadow: 0 0 5px black;
     position: sticky;
+    z-index: 99990;
+    background-color: var(--drbx-white);
+    top: 0;
+    left: 0;
     padding: 0.5rem;
+}
+p{
+    line-height: 1.5rem;
 }
 /* #endregion common */
 
@@ -60,36 +68,99 @@ header{
 
 #top_main{
     background-color: var(--drbx-bg-and-square6);
+    height: 600px;
 }
 
+#titolone{
+    font-size: 5rem;
+}
+.fa-arrow-down{
+    color: var(--drbx-black);
+    margin-top:5rem;
+}
+
+.icon_plan{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.content_plan{
+    text-align: left;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.content_plan>span>i{
+margin-right: 0.5rem;
+}
+.content_plan>span{
+    line-height: normal;
+    font-size: 0.9rem;
+}
+.text-decoration-on{
+    text-decoration: underline;
+    color: var(--drbx-accent);
+
+}
+.separatore{
+    height: 1px;
+    width: 20%;
+    background-color: var(--drbx-black);
+}
+
+
 /* #endregion main */
+
 /* #region utilities */
-.container{
+
+.container_big{
     max-width: 1170px;
+    width: 80%;
     margin: 0 auto;
 }
+.container_avg{
+    max-width: 1020px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* /container */
+
+.d-block{
+display: block;
+}
+
 .d-flex{
     display: flex;
 }
 
+/* /display */
+
 .list-unstyled {
 	list-style: none;
 }
+
 .list-inline {
     display: flex;
 }
+
+/* /list  */
+
 .space_btw{
     justify-content: space-between;
 }
+
 .justify-content-end {
     justify-content: end;
 }
-  .align-items-center {
+
+.align-items-center {
     align-items: center;
 }
 
-.img-flow{
-    width: 100%;
+/* /flex utilities*/
+.col-3{
+    width: calc(100%/12*3);
 }
 .col-4{
     width: calc(100%/12*4);
@@ -99,4 +170,44 @@ header{
     width: calc(100%/12*8);
 }
 
+/* /col- */
+
+.btn{
+    width: fit-content;
+}
+.plan_btn{
+    margin-left: 0.5rem;
+
+}
+/* btn */
+
+.py-4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.py-1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.pt-5{
+    padding-top: 5rem;
+}
+/* padding */
+.f-size-3{
+    font-size: 3rem;
+}
+/*  /font */
+.img-flow{
+    width: 100%;
+}
+/*  /img */
+
+
+.border-thin{
+    border: 1px solid ;
+   
+}
+/* /border */
 /* #endregion utilities */
