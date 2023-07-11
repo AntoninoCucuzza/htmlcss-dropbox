@@ -162,6 +162,66 @@ margin-right: 0.5rem;
 }
 /* /instructions */
 
+.company, .huge{
+    height: 600px;
+    flex-wrap:wrap ;
+    width: 100%;
+
+}
+.huge{
+    padding: 4rem;
+    background-color: var(--drbx-big-square);
+}
+.huge>.separatore{
+    margin: 3rem 0rem;
+}
+.partner{
+    width: 50%;
+    height: 50%;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #region partners */
+.partner_desingt{
+    background-color: var(--drbx-square1);
+
+}
+.partner_arizona{
+    background-color: var(--drbx-square2-aternativeFont);
+
+}
+.partner_uni{
+    background-color: var(--drbx-square3);
+
+}
+.partner_topps{
+    background-color: var(--drbx-square4);
+    
+}
+.partner_world{
+    background-color: var(--drbx-square5);
+
+}
+.partner_hearts{
+    background-color: var(--drbx-bg-and-square6);
+    
+}
+.partner_lonely{
+    background-color: var(--drbx-square7);
+
+}
+.partner_channel{
+    background-color: var(--drbx-square8);
+    
+}
+
+/* #endregion partners */
+
+
+/* /Business */
+
 /* #endregion main */
 
 /* #region utilities */
@@ -257,6 +317,10 @@ display: block;
 .py-4{
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.py-8{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .py-1{
