@@ -13,12 +13,13 @@
     --drbx-accent: #0061ff;
     --drbx-square1: #A3D39A;
     --drbx-square2-aternativeFont: #60092B;
-    --drbx-square3: #0192CE;
+    --drbx-square3-and-hover-btn: #0192CE;
     --drbx-square4: #FE1C1D;
     --drbx-big-square: #F5F4F4;
     --drbx-square5: #D4011F;
     --drbx-square7: #0D2580;
     --drbx-square8: #FED831;
+  
 }
 
 body{
@@ -413,3 +414,28 @@ display: block;
 }
 /* /border */
 /* #endregion utilities */
+
+/* #region :hover */
+
+header .hover:hover{
+    border-bottom: 1px solid black;
+}
+
+.btn-hover:hover{
+    background-color: var(--drbx-square3-and-hover-btn) ;
+}
+
+.btn-suppor:hover{
+    background-color: var(--drbx-square3-and-hover-btn) ;
+}
+
+.ask:hover span>i{
+    rotate: 180deg;
+}
+.ask:hover .d-none{
+    display: contents;
+
+}
+
+.d-none{display: none;}
+/* #endregion :hover */
