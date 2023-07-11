@@ -49,6 +49,13 @@ header{
 p{
     line-height: 1.5rem;
 }
+footer{
+    background-color: var(--drbx-black);
+    color: var(--drbx-white);
+}
+footer a{
+    color: var(--drbx-white);
+}
 /* #endregion common */
 
 /* #region header */
@@ -238,6 +245,17 @@ margin-right: 0.5rem;
 /* / trial*/
 /* #endregion main */
 
+/* #region footer */
+footer li, footer h1{
+    padding-bottom: 1rem;
+}   
+.separatore_footer{
+    width: 20%;
+    border-top: 1px solid white;
+    padding: 2rem 2rem 2rem 0;
+}
+/* #endregion footer */
+
 /* #region utilities */
 
 .container_big{
@@ -296,6 +314,9 @@ display: block;
 
 
 /* /flex utilities*/
+.col-2{
+    width: 20%;
+}
 .col-3{
     width: calc(100%/12*3);
 }
