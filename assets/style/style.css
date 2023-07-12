@@ -120,6 +120,7 @@ margin-right: 0.5rem;
 }
 .fa-check{
     color: var(--drbx-accent);
+    
 }
 /* /plan */
 .support{
@@ -172,9 +173,9 @@ margin-right: 0.5rem;
 /* /instructions */
 
 .company, .huge{
-    height: 600px;
     flex-wrap:wrap ;
     width: 100%;
+    aspect-ratio: 1/1;
 
 }
 .huge{
@@ -190,6 +191,10 @@ margin-right: 0.5rem;
     padding: 4rem;
     justify-content: center;
     align-items: center;
+    transition: all 1.5s;
+}
+.partner>img{
+    filter: invert(1);
 }
 
 /* #region partners */
@@ -202,7 +207,7 @@ margin-right: 0.5rem;
 
 }
 .partner_uni{
-    background-color: var(--drbx-square3);
+    background-color: var(--drbx-square3-and-hover-btn);
 
 }
 .partner_topps{
@@ -420,13 +425,25 @@ display: block;
 header .hover:hover{
     border-bottom: 1px solid black;
 }
-
+.btn-hover{
+    transition: all 1s;
+}
 .btn-hover:hover{
     background-color: var(--drbx-square3-and-hover-btn) ;
 }
+.btn-hover-third, .btn-hover-third a{
+    transition: all 0.5s;
+}
 
-.btn-suppor:hover{
-    background-color: var(--drbx-square3-and-hover-btn) ;
+.btn-hover-third:hover {
+    background-color: var(--drbx-square2-aternativeFont);
+}
+.btn-hover-third:hover a {
+    color: var(--drbx-white);
+    
+}
+.fa-angle-down{
+    transition: all 1s;
 }
 
 .ask:hover span>i{
@@ -436,6 +453,23 @@ header .hover:hover{
     display: contents;
 
 }
+.btn-hover-second{
+    transition: all 1s;
+}
 
-.d-none{display: none;}
+.btn-hover-second:hover{
+    background-color: var(--drbx-black);
+}
+.btn-hover-second:hover a{
+    color: var(--drbx-white);
+}
+
+
+.d-none{
+    display: none;
+}
+
+.partner:hover{
+    box-shadow: 0 0 50px var(--drbx-white) inset;
+}
 /* #endregion :hover */

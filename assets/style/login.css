@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+header{
+    box-shadow: 0 0 5px;
+    padding: 1rem;
+    position: sticky;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color: black;
+}
+/* #region utility */
+.box{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.login{
+
+    background-color: aqua;
+}
+/* flex */
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+} 
+.align-items-center {
+    align-items: center;
+}
+
+.space_btw{
+    justify-content: space-between;
+}
+
+/* #endregion utility */
+
+.right:hover{
+    border-bottom: 1px solid;
+   
+}
