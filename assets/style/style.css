@@ -97,7 +97,7 @@ footer a{
 .content_plan{
     text-align: left;
     line-height: 2rem;
-    height: 800px;
+    height: 100%;
     padding: 1rem;
 }
 
@@ -162,7 +162,7 @@ margin-right: 0.5rem;
 .row-wrap{
     flex-wrap: wrap;
     justify-content: center;
-    min-width: 800px;
+
     
 }
 
