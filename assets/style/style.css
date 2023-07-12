@@ -9,16 +9,16 @@
 :root {
     --drbx-black: #000000;
     --drbx-white: #FFFFFF;
-    --drbx-bg-and-square6: #b4d0e7;
+    --drbx-bg-and-lonely: #b4d0e7;
     --drbx-accent: #0061ff;
-    --drbx-square1: #A3D39A;
-    --drbx-square2-aternativeFont: #60092B;
-    --drbx-square3-and-hover-btn: #0192CE;
-    --drbx-square4: #FE1C1D;
+    --drbx-designit: #A3D39A;
+    --drbx-arizona-aternativeFont: #60092B;
+    --drbx-university-and-hover-btn: #0192CE;
+    --drbx-topps: #FE1C1D;
     --drbx-big-square: #F5F4F4;
-    --drbx-square5: #D4011F;
-    --drbx-square7: #0D2580;
-    --drbx-square8: #FED831;
+    --drbx-world: #D4011F;
+    --drbx-lonely: #0D2580;
+    --drbx-channel: #FED831;
   
 }
 
@@ -75,7 +75,7 @@ footer a{
 /* #region main */
 
 #top_main{
-    background-color: var(--drbx-bg-and-square6);
+    background-color: var(--drbx-bg-and-lonely);
     height: 600px;
 }
 
@@ -126,13 +126,15 @@ margin-right: 0.5rem;
 .support{
     flex-direction: column;
 }
-.btn_support>a{
+.btn_support{
     background-color: var(--drbx-accent);
-    color: var(--drbx-white);
     padding: 0 0.5rem;
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+.btn_support>a{
+    color: var(--drbx-white);
 }
 .plan_support_top{
     width: 100%;
@@ -161,9 +163,7 @@ margin-right: 0.5rem;
 /* /partnership */
 .row-wrap{
     flex-wrap: wrap;
-    justify-content: center;
-
-    
+    justify-content: center; 
 }
 
 .card{
@@ -178,10 +178,12 @@ margin-right: 0.5rem;
     aspect-ratio: 1/1;
 
 }
+
 .huge{
     padding: 4rem;
     background-color: var(--drbx-big-square);
 }
+
 .huge>.separatore{
     margin: 3rem 0rem;
 }
@@ -199,35 +201,35 @@ margin-right: 0.5rem;
 
 /* #region partners */
 .partner_desingt{
-    background-color: var(--drbx-square1);
+    background-color: var(--drbx-designit);
 
 }
 .partner_arizona{
-    background-color: var(--drbx-square2-aternativeFont);
+    background-color: var(--drbx-arizona-aternativeFont);
 
 }
 .partner_uni{
-    background-color: var(--drbx-square3-and-hover-btn);
+    background-color: var(--drbx-university-and-hover-btn);
 
 }
 .partner_topps{
-    background-color: var(--drbx-square4);
+    background-color: var(--drbx-topps);
     
 }
 .partner_world{
-    background-color: var(--drbx-square5);
+    background-color: var(--drbx-world);
 
 }
 .partner_hearts{
-    background-color: var(--drbx-bg-and-square6);
+    background-color: var(--drbx-bg-and-lonely);
     
 }
 .partner_lonely{
-    background-color: var(--drbx-square7);
+    background-color: var(--drbx-lonely);
 
 }
 .partner_channel{
-    background-color: var(--drbx-square8);
+    background-color: var(--drbx-channel);
     
 }
 
@@ -236,13 +238,13 @@ margin-right: 0.5rem;
 
 /* /Business */
 .container_trial{
-    background-color:var(--drbx-bg-and-square6) ;    
+    background-color:var(--drbx-bg-and-lonely) ;    
 }
 .box{
     padding: 4rem 4rem 4rem 0;
 }
 .box>.col-8>h1{
-    color: var(--drbx-square2-aternativeFont);
+    color: var(--drbx-arizona-aternativeFont);
 }
 .btn-trial{
     background-color: var(--drbx-white);
@@ -429,14 +431,14 @@ header .hover:hover{
     transition: all 1s;
 }
 .btn-hover:hover{
-    background-color: var(--drbx-square3-and-hover-btn) ;
+    background-color: var(--drbx-university-and-hover-btn) ;
 }
 .btn-hover-third, .btn-hover-third a{
     transition: all 0.5s;
 }
 
 .btn-hover-third:hover {
-    background-color: var(--drbx-square2-aternativeFont);
+    background-color: var(--drbx-arizona-aternativeFont);
 }
 .btn-hover-third:hover a {
     color: var(--drbx-white);
