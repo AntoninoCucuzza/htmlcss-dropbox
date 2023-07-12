@@ -1,3 +1,4 @@
+/* #region common */
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +9,15 @@ body{
     font-family: 'Open Sans', sans-serif;
    
 }
-
+main{
+    height: 80vh;
+}
 header{
     box-shadow: 0 0 5px;
     padding: 1rem;
     position: sticky;
+    top: 0;
+    left: 0;
     background-color: white;
 }
 
@@ -23,7 +28,16 @@ a{
 header a{
     color: black;
 }
-/* #region utility */
+footer{
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+}
+/* #endregion common */
+
+/* #region main */
 .box{
     position: absolute;
     top: 50%;
@@ -54,6 +68,64 @@ header a{
     text-align: center;
 }
 
+.right:hover{
+    border-bottom: 1px solid;
+   
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.linea{
+    height: 1px;
+    width: 100%;
+    background-color: #857b7b;
+
+}
+.btn-continua a{
+    color: black;
+}
+
+.user-box input{
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #857b7b;
+
+}
+
+.btn-primary{
+    background-color: #0061ff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn-primary a{
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #0192CE ;
+}
+/* #endregion main */
+
+/* #region footer */
+
+.separatore_footer{
+    width: 20%;
+    border-top: 1px solid white;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.card{
+    margin: 1rem;
+    
+}
+/* #endregion footer */
+
+/* #region utility */
+
 
 /* flex */
 .d-flex{
@@ -73,52 +145,39 @@ header a{
 
 /* #endregion utility */
 
-.right:hover{
-    border-bottom: 1px solid;
-   
-}
-
-.btn{
-    border: 1px solid black;
-    padding: 0.5rem;
-}
-.btn-continua a{
-    color: black;
-}
-
+/* margin */
 .mb-2{
     margin-bottom: 2rem;
 }
+
+.mt-3{
+    margin-top: 3rem;
+}
+/* padding */
 .pb-3{
     padding-bottom: 3rem;
 }
 
-.linea{
-    
-    height: 1px;
-    width: 100%;
-    background-color: #857b7b;
-
+/* list */
+.list-unstyled {
+    list-style: none;
 }
+/* container */
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.user-box input{
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-bottom: 1px solid #857b7b;
 
+
+.container_avg{
+    max-width: 1020px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* col- */
+.col-2{
+    width: calc(100%/12*2);
 }
 
-.btn-primary{
-    background-color: #0061ff;
-    padding: 1rem;
-    text-align: center;
-}
 
-.btn-primary a{
-    color: white;
-}
